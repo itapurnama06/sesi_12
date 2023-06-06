@@ -8,9 +8,8 @@
 </head>
 <body>
     
-    <h3>list data user</h3>
+    <a href="Latihan01-new.html">Data Baru</a>
     <div id="tampil"></div>
-
 
     <script>
         const jsHTTP = new XMLHttpRequest();
@@ -29,7 +28,7 @@
                 tx  += '<td>'+ dta.isi[i][1]+'</td>';
                 tx  += '<td>'+ dta.isi[i][2]+'</td>';
                 tx  += '<td>'+ dta.isi[i][3]+'</td>';
-                tx  += '<td><a href="latihan01-edit.html?id='+ dta.isi[i][3] +'">Edit</a>';
+                tx  += '<td><a href ="Latihan01-edit.html?id='+ dta.isi[i][3] +'">Edit</a>';
                 tx  += '<a href ="Latihan01-edit.html?id='+ dta.isi[i][3] +'">Hapus</a></td>'
                 tx  += '</tr>';
                 no++;
